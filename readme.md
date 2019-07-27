@@ -98,6 +98,8 @@ Type: `number`
 
 The amount of seconds you want to add to the timestamp.
 
+---
+
 #### addMinutes(timestamp, {options})
 
 Returns a modified timestamp.
@@ -119,6 +121,8 @@ Any of the options below.
 Type: `number`
 
 The amount of minutes you want to add to the timestamp.
+
+---
 
 #### addHours(timestamp, {options})
 
@@ -142,6 +146,8 @@ Type: `number`
 
 The amount of hours you want to add to the timestamp.
 
+---
+
 #### addDays(timestamp, {options})
 
 Returns a modified timestamp.
@@ -163,6 +169,8 @@ Any of the options below.
 Type: `number`
 
 The amount of days you want to add to the timestamp.
+
+---
 
 #### addWeeks(timestamp, {options})
 
@@ -186,6 +194,8 @@ Type: `number`
 
 The amount of weeks you want to add to the timestamp.
 
+---
+
 #### addMonths(timestamp, {options})
 
 Returns a modified timestamp.
@@ -208,6 +218,8 @@ Type: `number`
 
 The amount of months you want to add to the timestamp.
 
+---
+
 #### addYears(timestamp, {options})
 
 Returns a modified timestamp.
@@ -229,6 +241,8 @@ Any of the options below.
 Type: `number`
 
 The amount of years you want to add to the timestamp.
+
+---
 
 ## Subtract
 
@@ -254,6 +268,8 @@ Type: `number`
 
 The amount of seconds you want to subtract from the timestamp.
 
+---
+
 #### subtractMinutes(timestamp, {options})
 
 Returns a modified timestamp.
@@ -275,6 +291,8 @@ Any of the options below.
 Type: `number`
 
 The amount of minutes you want to subtract from the timestamp.
+
+---
 
 #### subtractHours(timestamp, {options})
 
@@ -298,6 +316,8 @@ Type: `number`
 
 The amount of hours you want to subtract from the timestamp.
 
+---
+
 #### subtractDays(timestamp, {options})
 
 Returns a modified timestamp.
@@ -319,6 +339,8 @@ Any of the options below.
 Type: `number`
 
 The amount of days you want to subtract from the timestamp.
+
+---
 
 #### subtractWeeks(timestamp, {options})
 
@@ -342,6 +364,8 @@ Type: `number`
 
 The amount of weeks you want to subtract from the timestamp.
 
+---
+
 #### subtractMonths(timestamp, {options})
 
 Returns a modified timestamp.
@@ -363,6 +387,8 @@ Any of the options below.
 Type: `number`
 
 The amount of months you want to subtract from the timestamp.
+
+---
 
 #### subtractYears(timestamp, {options})
 
@@ -386,6 +412,8 @@ Type: `number`
 
 The amount of years you want to subtract from the timestamp.
 
+---
+
 ## Is
 
 #### isOlderThan(firstTimestamp, secondTimestamp)
@@ -403,6 +431,8 @@ UNIX Timestamp.
 Type: `number`
 
 UNIX Timestamp.
+
+---
 
 #### isNewerThan(firstTimestamp, secondTimestamp)
 
@@ -430,6 +460,8 @@ Type: `number`
 
 UNIX Timestamp.
 
+---
+
 #### isHourOld(timestamp)
 
 Returns a `boolean` of whether the `timestamp` is at least an hour old (from now).
@@ -439,6 +471,8 @@ Returns a `boolean` of whether the `timestamp` is at least an hour old (from now
 Type: `number`
 
 UNIX Timestamp.
+
+---
 
 #### isDayOld(timestamp)
 
@@ -450,6 +484,8 @@ Type: `number`
 
 UNIX Timestamp.
 
+---
+
 #### isWeekOld(timestamp)
 
 Returns a `boolean` of whether the `timestamp` is at least week old (from now).
@@ -459,6 +495,8 @@ Returns a `boolean` of whether the `timestamp` is at least week old (from now).
 Type: `number`
 
 UNIX Timestamp.
+
+---
 
 #### isFortnightOld(timestamp)
 
@@ -470,6 +508,8 @@ Type: `number`
 
 UNIX Timestamp.
 
+---
+
 #### isMonthOld(timestamp)
 
 Returns a `boolean` of whether the `timestamp` is at least month old (from now).
@@ -479,6 +519,8 @@ Returns a `boolean` of whether the `timestamp` is at least month old (from now).
 Type: `number`
 
 UNIX Timestamp.
+
+---
 
 #### isHalfYearOld(timestamp)
 
@@ -490,6 +532,8 @@ Type: `number`
 
 UNIX Timestamp.
 
+---
+
 #### isYearOld(timestamp)
 
 Returns a `boolean` of whether the `timestamp` is at least year old (from now).
@@ -499,6 +543,8 @@ Returns a `boolean` of whether the `timestamp` is at least year old (from now).
 Type: `number`
 
 UNIX Timestamp.
+
+---
 
 #### isOldCustom(timestamp, {options})
 
@@ -522,6 +568,8 @@ Type: `number`
 
 How old the timestamp should be for the function to return `true`.
 
+---
+
 ## To
 
 #### toDate(timestamp)
@@ -534,6 +582,8 @@ Type: `number`
 
 UNIX Timestamp.
 
+---
+
 #### toTime(timestamp)
 
 Returns time extracted from timestamp.
@@ -544,11 +594,15 @@ Type: `number`
 
 UNIX Timestamp.
 
+---
+
 ## Other
 
 #### getCurrentTimestamp()
 
 Returns a current UNIX timestamp.
+
+---
 
 #### howOld(timestamp)
 
@@ -559,6 +613,8 @@ Returns the amount of second of how old the given timestamp is (from now).
 Type: `number`
 
 UNIX Timestamp.
+
+---
 
 ## License
 
